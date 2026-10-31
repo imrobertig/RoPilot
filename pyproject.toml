@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ropilot-bridge"
+version = "0.1.0"
+description = "Local bridge and provider registry for RoPilot"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.115",
+  "uvicorn[standard]>=0.30",
+  "pydantic>=2.8"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ropilot_bridge*"]
