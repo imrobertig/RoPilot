@@ -4,7 +4,7 @@ An extensible AI development agent for Roblox Studio.
 
 RoPilot is designed around provider adapters instead of being tied to a handful of chatbot websites. It aims to support official model APIs, OpenAI-compatible endpoints, and local models through Ollama, with Roblox Studio connected through a local bridge and MCP.
 
-> Status: early starter scaffold. This repository is not yet a complete ZeroScript replacement. Provider adapters and the Studio tool bridge need integration testing before everyday use.
+> Status: early starter scaffold. This repository is not yet a complete AI Bridge replacement. Provider adapters and the Studio tool bridge need integration testing before everyday use.
 
 ## Goals
 
